@@ -1,0 +1,13 @@
+# Default values for composite-ui (frontend).
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+name: springboot
+replicaCount: 1
+port: 8080
+host: ""
+image: 1318081/modulefederation
+imageTag: mlmf
+imageConfig:
+  port: 80
+  pullPolicy: IfNotPresent
